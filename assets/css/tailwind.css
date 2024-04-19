@@ -103,7 +103,7 @@
   }
 
   body {
-    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-lg text-justify;
+    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-base text-justify;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -370,3 +370,10 @@
     @apply text-2xl font-extrabold text-gray-900 dark:text-gray-300;
   }
 }
+.inline-svg {
+  display: inline-block;
+  height: 1.15rem;
+  width: 1.15rem;
+  top: 0.15rem;
+  position: relative;
+  }
